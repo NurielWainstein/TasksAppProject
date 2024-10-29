@@ -1,6 +1,6 @@
 import pytest
 import tempfile
-from ServerBuisness.dbi.TasksDBManager import TaskDatabaseManager
+from BackendServer.dbi.TasksDBManager import TaskDatabaseManager
 
 @pytest.fixture
 def task_db():

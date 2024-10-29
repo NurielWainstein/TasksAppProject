@@ -1,7 +1,7 @@
 import logging
 from flask_restx import Namespace, Resource, fields
 from flask import request, abort
-from ServerBuisness.dbi.TasksDBManager import TaskDatabaseManager
+from BackendServer.dbi.TasksDBManager import TaskDatabaseManager
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)

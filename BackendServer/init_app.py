@@ -5,7 +5,7 @@ from flask_restx import Api
 from flask_compress import Compress
 from dotenv import load_dotenv
 
-from ServerBuisness.apis.tasks import tasks_ns
+from BackendServer.apis.tasks import tasks_ns
 
 # Load environment variables from .env file
 load_dotenv()
